@@ -1,0 +1,121 @@
+Proyecto Final
+Perfilado de sección
+GUIA PROYECTO FINAL
+SERIES TEMPORALES
+1. OBJETIVO
+Aplicar tecnicas de forecasting a un dataset de series temporales, demostrando el flujo de trabajo completo: preprocesamiento, modelado, evaluacion y presentacion de resultados.
+
+
+2. TEMAS LIBRES
+pueden elegir CUALQUIER problema de series temporales. Algunos ejemplos:
+
+Finanzas: Prediccion de precios de acciones, criptomonedas, tasas de cambio
+Ventas: Forecasting de ventas, demanda de productos, inventarios
+Energia: Consumo electrico, produccion de energia renovable
+Clima: Temperatura, precipitaciones, fenomenos meteorologicos
+Transporte: Trafico vehicular, demanda de transporte publico
+Salud: Demanda hospitalaria, propagacion de enfermedades
+Turismo: Llegada de turistas, ocupacion hotelera
+Redes Sociales: Tendencias, engagement, metricas de contenido
+IoT/Sensores: Datos de sensores industriales, monitoreo de equipos
+Macroeconomia: PIB, inflacion, desempleo, indicadores economicos
+Requisitos del Dataset:
+
+Minimo 100 observaciones temporales
+Columna de fecha/hora
+Al menos una variable numerica a predecir
+3. ENTREGABLES
+3.1 Repositorio GitHub
+Codigo organizado (notebooks o scripts)
+README.md con el reporte completo
+Dataset incluido o enlace de descarga
+requirements.txt con dependencias
+3.2 Reporte (README.md)
+El README debe contener:
+
+Descripcion del problema
+Dataset utilizado
+Metodologia aplicada
+Modelos implementados (minimo 2)
+Resultados y metricas
+Visualizaciones
+Conclusiones
+3.3 Presentacion (10 diapositivas)
+Titulo y autores
+Problema y dataset
+Modelos utilizados
+Resultados y comparativa
+Conclusiones
+4. ESTRUCTURA DEL REPOSITORIO (Sugerida)
+proyecto_ts/
+│
+├── data/
+│   └── datos.csv
+│
+├── notebooks/
+│   ├── 01_preprocesamiento.ipynb
+│   ├── 02_modelos.ipynb
+│   └── 03_evaluacion.ipynb
+│
+├── results/
+│   ├── metricas.csv
+│   └── graficos.png
+│
+├── README.md
+└── requirements.txt
+    
+5. MODELOS SUGERIDOS
+Los estudiantes deben implementar minimo 2 modelos de diferentes categorias:
+
+Modelos Estadisticos
+ARIMA
+SARIMA
+ETS (Exponential Smoothing)
+Machine Learning
+XGBoost
+Random Forest
+Gradient Boosting
+Prophet (Facebook)
+Deep Learning
+LSTM
+TCN
+Seq2Seq
+N-BEATS
+Transformers
+NLP/LLMs (opcional)
+Text embeddings
+LLMs para forecasting
+6. EVALUACION
+Metricas Obligatorias
+RMSE (Root Mean Square Error)
+MAE (Mean Absolute Error)
+MAPE (Mean Absolute Percentage Error)
+Metricas Opcionales
+sMAPE (Symmetric Mean Absolute Percentage Error)
+MASE (Mean Absolute Scaled Error)
+R2 (Coeficiente de determinacion)
+Visualizaciones Requeridas
+Serie temporal original
+Predicciones vs valores reales
+Comparacion de modelos
+Analisis de residuales
+7. RUBRICA DE EVALUACION
+Elemento	Puntos	Descripcion
+Dataset y preprocesamiento	15	Calidad del dataset, limpieza, EDA
+Modelos implementados	30	Minimo 2 modelos de diferentes categorias
+Evaluacion y metricas	20	RMSE, MAE, MAPE, comparativa
+Visualizaciones	15	Graficos claros y profesionales
+Reporte y presentacion	20	README completo, presentacion 10 slides
+Total	100	 
+ 
+8. CHECKLIST FINAL
+Dataset elegido y justificado
+Preprocesamiento completo
+2+ modelos de diferentes categorias
+Evaluacion con RMSE, MAE, MAPE
+Comparacion de modelos
+Visualizaciones de predicciones
+README.md con reporte
+Presentacion de 10 slides
+Repositorio GitHub completo
+Ambos integrantes participaron activamente

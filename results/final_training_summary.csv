@@ -1,0 +1,3 @@
+modelo,categoria,observaciones_desarrollo,configuracion
+SARIMA,Estadístico,373,"(2, 0, 2) x (1, 1, 1, 12); trend=n"
+XGBoost,Machine Learning,349,"{'n_estimators': 200, 'learning_rate': 0.03, 'max_depth': 3, 'min_child_weight': 1, 'subsample': 0.8, 'colsample_bytree': 0.8}"
