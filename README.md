@@ -124,4 +124,4 @@ Los notebooks deben ejecutarse en este orden:
 1. `notebooks/01_eda_y_protocolo.ipynb`: validación del dataset, análisis exploratorio y cortes temporales.
 2. `notebooks/02_modelos.ipynb`: selección en validation, evaluación final en test y exportación de resultados.
 
-Ambos notebooks localizan automáticamente la raíz del proyecto cuando se ejecutan desde la carpeta principal o desde `notebooks/`. Las dependencias se documentarán en `requirements.txt` antes de publicar el repositorio.
+Ambos notebooks localizan automáticamente la raíz del proyecto cuando se ejecutan desde la carpeta principal o desde `notebooks/`. Las dependencias están documentadas en requirements.txt y deben instalarse antes de ejecutar los notebooks.
